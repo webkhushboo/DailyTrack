@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-row:nth-child(even) {
+    background-color: white;
+}
+
+.mat-row:nth-child(odd) {
+    background-color: #ccc;
+    border: transparent;
+}
+
+.mat-header-cell {
+    color: #1414a0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.mat-form-field {
+    width: 100%;
+}

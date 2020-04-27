@@ -1,0 +1,5 @@
+<div fxLayout="row" fxLayoutAlign="space-between" class="top-row">
+    <h1>Campaigns</h1>
+    <button mat-raised-button color='primary' routerLink='campaigns/create'>Create</button>
+</div>
+<app-generic-table [columns]='columns' [dataSource]='dataSource' pageSize='5'></app-generic-table>

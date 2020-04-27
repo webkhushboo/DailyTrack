@@ -1,0 +1,72 @@
+<div fxLayout="row">
+    <h2>Add Campaign</h2>
+</div>
+<form [formGroup]='addEditForm'>
+    <div fxLayout="row wrap" fxLayoutGap="10px">
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>ID</mat-label>
+                <input matInput placeholder="Enter id" formControlName="id" />
+            </mat-form-field>
+        </div>
+        
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="Enter name" formControlName="name" />
+            </mat-form-field>
+        </div>
+
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>Ad format</mat-label>
+                <input matInput placeholder="Enter name" formControlName="adFormat" />
+            </mat-form-field>
+        </div>
+
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>Group Name</mat-label>
+                <input matInput placeholder="Enter name" formControlName="groupName" />
+            </mat-form-field>
+        </div>
+
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>Traffic Source</mat-label>
+                <input matInput placeholder="Enter name" formControlName="trafficSource" />
+            </mat-form-field>
+        </div>
+
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>Revenue</mat-label>
+                <input matInput placeholder="Enter Revenue" formControlName="revenue" />
+            </mat-form-field>
+        </div>
+
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>Cost</mat-label>
+                <input matInput placeholder="Enter Cost" formControlName="cost" />
+            </mat-form-field>
+        </div>
+
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>Profit</mat-label>
+                <input matInput placeholder="Enter Profit" formControlName="profit" />
+            </mat-form-field>
+        </div>
+
+        <div fxFlex="calc(33%-10px)">
+            <mat-form-field appearance="outline">
+                <mat-label>ROI</mat-label>
+                <input matInput placeholder="Enter ROI" formControlName="rate" />
+            </mat-form-field>
+        </div>
+    </div>
+</form>
+<div fxLayout="row">
+    <button mat-raised-button color='primary' (click)="saveCampaign()">Save</button>
+</div>

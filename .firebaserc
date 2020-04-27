@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dailytrack-1c007": {
+      "hosting": {
+        "dailydash": [
+          "dailytrack-1c007"
+        ]
+      }
+    }
+  }
+}
